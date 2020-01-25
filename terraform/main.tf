@@ -5,7 +5,7 @@ data "archive_file" "reaper" {
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "us-west-2"
 }
 
 resource "aws_lambda_function" "reaper_lambda" {
